@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yarimawa Travel & Tours | Explore the Unseen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        .hero-gradient {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-900 bg-gray-50">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="text-2xl font-bold text-orange-600">YARIMAWA <span class="text-gray-800">TRAVELS</span></div>
+                <div class="hidden md:flex space-x-8 font-medium">
+                    <a href="#home" class="hover:text-orange-600 transition">Home</a>
+                    <a href="#about" class="hover:text-orange-600 transition">About</a>
+                    <a href="#services" class="hover:text-orange-600 transition">Services</a>
+                    <a href="#contact" class="bg-orange-600 text-white px-5 py-2 rounded-full hover:bg-orange-700 transition">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-gradient h-screen flex items-center justify-center text-center text-white px-4">
+        <div class="max-w-3xl">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6">Adventure Awaits You</h1>
+            <p class="text-lg md:text-xl mb-8 text-gray-200">Experience the world's hidden gems with Yarimawa Travel and Tours. We curate unforgettable journeys tailored just for you.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#services" class="bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition">View Packages</a>
+                <a href="#contact" class="bg-white hover:bg-gray-100 text-gray-900 px-8 py-4 rounded-lg font-bold text-lg transition">Get a Quote</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">Your Trusted Travel Partner</h2>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        At Yarimawa Travel and Tours, we believe that travel is more than just visiting new places—it's about creating memories that last a lifetime. 
+                    </p>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Whether you're looking for a relaxing beach getaway, a rugged mountain trek, or a cultural deep-dive, our team handles every detail so you can simply enjoy the ride.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center"><i class="fas fa-check text-orange-600 mr-2"></i> Personalized Itineraries</li>
+                        <li class="flex items-center"><i class="fas fa-check text-orange-600 mr-2"></i> 24/7 Support</li>
+                        <li class="flex items-center"><i class="fas fa-check text-orange-600 mr-2"></i> Best Price Guarantee</li>
+                    </ul>
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-2xl">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Travel Destination" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
+            <p class="text-gray-600 mb-16 max-w-2xl mx-auto">From transportation to luxury accommodation, we provide comprehensive travel solutions.</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300">
+                    <div class="w-16 h-16 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Tour Packages</h3>
+                    <p class="text-gray-600">Customized guided tours to the most beautiful and historical locations.</p>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300">
+                    <div class="w-16 h-16 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Flight Bookings</h3>
+                    <p class="text-gray-600">Easy booking for domestic and international flights at competitive prices.</p>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300">
+                    <div class="w-16 h-16 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center mx-auto mb-6 text-2xl">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Hotel Reservations</h3>
+                    <p class="text-gray-600">Access to a wide range of accommodations from cozy boutique hotels to luxury resorts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
+                <p class="text-gray-600">Ready to start your journey? Send us a message and we'll get back to you within 24 hours.</p>
+            </div>
+            
+            <div class="bg-gray-50 p-8 rounded-3xl shadow-lg">
+                <form action="#" method="POST" class="space-y-4">
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <input type="text" placeholder="Your Name" class="w-full p-4 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-500" required>
+                        <input type="email" placeholder="Your Email" class="w-full p-4 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-500" required>
+                    </div>
+                    <input type="text" placeholder="Destination / Package Name" class="w-full p-4 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-500">
+                    <textarea placeholder="Tell us about your dream trip..." rows="4" class="w-full p-4 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-orange-500"></textarea>
+                    <button type="submit" class="w-full bg-orange-600 text-white py-4 rounded-lg font-bold text-lg hover:bg-orange-700 transition">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <div class="mb-8">
+                <div class="text-2xl font-bold text-orange-500">YARIMAWA TRAVELS</div>
+                <p class="text-gray-400 mt-2">Making your travel dreams a reality.</p>
+            </div>
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="#" class="hover:text-orange-500"><i class="fab fa-facebook text-xl"></i></a>
+                <a href="#" class="hover:text-orange-500"><i class="fab fa-instagram text-xl"></i></a>
+                <a href="#" class="hover:text-orange-500"><i class="fab fa-twitter text-xl"></i></a>
+                <a href="#" class="hover:text-orange-500"><i class="fab fa-whatsapp text-xl"></i></a>
+            </div>
+            <p class="text-gray-500 text-sm">&copy; 2023 Yarimawa Travel and Tours. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
